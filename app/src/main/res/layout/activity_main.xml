@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@android:color/white"
+                  android:orientation="horizontal"
+                  tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/inha"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/inhatc"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🏫 인후앱 🏫"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="25sp" />
+
+    <View
+            android:id="@+id/view_line1"
+            android:layout_width="250dp"
+            android:layout_height="1.2dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black" />
+
+    <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="이메일"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black" />
+
+    <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+
+    <View
+            android:id="@+id/view_line2"
+            android:layout_width="250dp"
+            android:layout_height="1.2dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@android:color/white"
+                  android:orientation="horizontal"
+                  tools:context=".MainActivity">
+
+        <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_marginLeft="90dp"
+                android:text="로그인"
+                android:textColor="@android:color/white"/>
+
+        <Button
+                android:id="@+id/btnJoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_marginLeft="30dp"
+                android:text="회원가입"
+                android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

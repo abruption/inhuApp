@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".DetailActivity">
+
+    <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="130dp"
+            android:text="🏫 인후앱 🏫"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp" />
+
+
+    <View
+            android:id="@+id/view_line1"
+            android:layout_width="250dp"
+            android:layout_height="1.2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:background="@android:color/black" />
+
+
+    <Button
+            android:id="@+id/btnCafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_line1"
+            android:layout_marginLeft="100dp"
+            android:text="카페" />
+
+    <Button
+            android:id="@+id/btnKorea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_line1"
+            android:layout_toRightOf="@+id/btnCafe"
+            android:layout_marginLeft="15dp"
+            android:text="한식" />
+
+    <View
+            android:id="@+id/view_line2"
+            android:layout_width="250dp"
+            android:layout_height="1.2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_below="@id/btnCafe"
+            android:background="@android:color/black" />
+
+    <Button
+            android:id="@+id/btnJapan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_line2"
+            android:layout_marginLeft="100dp"
+            android:text="일식" />
+
+    <Button
+            android:id="@+id/btnChina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_line2"
+            android:layout_toRightOf="@+id/btnCafe"
+            android:layout_marginLeft="15dp"
+            android:text="중식" />
+
+    <View
+            android:id="@+id/view_line3"
+            android:layout_width="250dp"
+            android:layout_height="1.2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:layout_below="@id/btnJapan"
+            android:background="@android:color/black" />
+
+
+</RelativeLayout>
